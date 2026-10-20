@@ -1,0 +1,15 @@
+{
+  "mode": "solvent",
+  "seed": 42,
+  "train_frac": 0.75,
+  "test_frac": 0.25,
+  "val_frac": 0.1,
+  "n_total": 26706,
+  "n_train": 22084,
+  "n_val": 2453,
+  "n_test": 2169,
+  "n_train_pool": 24537,
+  "train_system_overlap_with_test": 0,
+  "test_systems": 20,
+  "description": "论文 Solvent-based split: 留出 20 个二元溶剂体系 （测试体系与训练零重叠，n_test≈2169）"
+}

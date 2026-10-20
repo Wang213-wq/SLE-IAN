@@ -1,0 +1,15 @@
+{
+  "mode": "solute",
+  "seed": 42,
+  "train_frac": 0.75,
+  "test_frac": 0.25,
+  "val_frac": 0.1,
+  "n_total": 26706,
+  "n_train": 19413,
+  "n_val": 2156,
+  "n_test": 5137,
+  "n_train_pool": 21569,
+  "train_system_overlap_with_test": 0,
+  "test_systems": 25,
+  "description": "论文 Solute-based split: 留出 25 个药物分子 （该药物全部溶剂/温度数据进测试集，药物零重叠，n_test≈5137）"
+}

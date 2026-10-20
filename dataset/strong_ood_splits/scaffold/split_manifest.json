@@ -1,0 +1,15 @@
+{
+  "mode": "scaffold",
+  "seed": 42,
+  "train_frac": 0.75,
+  "test_frac": 0.25,
+  "val_frac": 0.1,
+  "n_total": 26706,
+  "n_train": 16283,
+  "n_val": 1809,
+  "n_test": 8614,
+  "n_train_pool": 18092,
+  "train_system_overlap_with_test": 0,
+  "test_systems": 14,
+  "description": "论文 Scaffold split (Bemis-Murcko): 按骨架分组 75/25，测试骨架与训练零重叠（n_test≈8614，骨架数≈14）"
+}

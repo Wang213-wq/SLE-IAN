@@ -1,0 +1,15 @@
+{
+  "mode": "temperature",
+  "seed": 42,
+  "train_frac": 0.75,
+  "test_frac": 0.25,
+  "val_frac": 0.1,
+  "n_total": 26706,
+  "n_train": 23670,
+  "n_val": 2629,
+  "n_test": 407,
+  "n_train_pool": 26299,
+  "train_system_overlap_with_test": 0,
+  "test_systems": 22,
+  "description": "论文 Temperature extrapolation: 训练 T≤333K（低中温），测试 T>333K（高温外推，n_test≈407）"
+}

@@ -1,0 +1,19 @@
+{
+  "provenance": {
+    "built_by": "data_split/build_strong_ood_splits.py",
+    "date": "2026-10-15",
+    "method": "frozen split indices (seed=42), verified by checksums.json",
+    "core_csv": "dataset/public dataset and split/Bao2024.csv",
+    "core_csv_md5": "5e398430039fbe3acf5abb3aade1b7cc"
+  },
+  "md5": {
+    "solvent/split_indices.csv": "a268b953ba7a48746bf7a20350379196",
+    "solvent/split_manifest.json": "aafb10cb8c774cb28503537997bb62c7",
+    "solute/split_indices.csv": "8eb4976cbfdb4ab365702b1c6af81a3a",
+    "solute/split_manifest.json": "f2ef927a37cd43ce93786f92daff55e4",
+    "scaffold/split_indices.csv": "9b5e7435e82a50140e5f768a3e14502d",
+    "scaffold/split_manifest.json": "f927e8734feee4f420f6e0dead161888",
+    "temperature/split_indices.csv": "6a6b5bdd6e1c364577fea1dfde8aa50c",
+    "temperature/split_manifest.json": "8834efc3dcab90ab69c79042545e9c24"
+  }
+}
