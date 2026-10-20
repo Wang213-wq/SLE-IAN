@@ -48,7 +48,7 @@ Each training run directory contains `results/summary.json` (final metrics + ful
 ```bash
 pip install -r requirements.txt
 # torch>=2.0, torch-geometric>=2.3, rdkit>=2023.3.1, numpy, pandas, scikit-learn, matplotlib
-# Chemprop baseline additionally requires `pip install chemprop` (MIT license; only needed to reproduce Chemprop rows).
+# Chemprop baseline additionally requires `pip install chemprop`.
 # Set the CHEMPROP_EXE environment variable to point to the chemprop executable if it is not on PATH.
 ```
 
@@ -81,7 +81,7 @@ All comparison models were re-trained by us using the original implementations r
 ## Data
 
 * `dataset/public dataset and split/Bao2024.csv` — internal main table, from the same Bao et al. (2024) paper listed under Baselines.
-* `dataset/private dataset and split/Sol2026.csv` — external dataset; not covered by this release's MIT licence — check its original terms before redistribution, or replace with access instructions plus the preprocessing script.
+* `dataset/private dataset and split/Sol2026.csv` — external dataset; 
 
 ## Two-stage weight loading
 
