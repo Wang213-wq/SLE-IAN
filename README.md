@@ -37,7 +37,6 @@ SLE_IAN/
 │   ├── external_sensitivity_group/32/best.pt                   # Phase-I best (S=32)
 │   └── external_sensitivity_group_edge/64/best.pt              # final model (S=64)
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
