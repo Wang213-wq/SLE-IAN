@@ -45,7 +45,6 @@ DEFAULT = {
 
 RESULTS_DIR = PROJECT_ROOT / "results"
 CHECKPOINT_DIR = PROJECT_ROOT / "checkpoints"
-MODEL_VERSION = "sle_ian_v2"
 
 
 def run_dirs(experiment: str) -> dict[str, Path]:
