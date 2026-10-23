@@ -11,7 +11,7 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from config.project_config import DEFAULT, MODEL_VERSION, run_dirs
+from config.project_config import DEFAULT, run_dirs
 from src.data import build_datasets, collate_batch, save_split_artifacts
 from src.evaluate import evaluate_loader, save_metrics
 from src.model import SLE_IANModel
@@ -406,7 +406,6 @@ def train_model(cfg: TrainConfig, *, epoch_callback=None) -> dict:
             elif isinstance(v, tuple):
                 ckpt_cfg[k] = list(v)
         ckpt = {
-            "model_version": MODEL_VERSION,
             "epoch": epoch,
             "model_state": model.state_dict(),
             "optimizer_state": opt.state_dict(),
@@ -478,7 +477,6 @@ def train_model(cfg: TrainConfig, *, epoch_callback=None) -> dict:
             cfg_dict[k] = list(v)
     summary = {
         "experiment": cfg.experiment,
-        "model_version": MODEL_VERSION,
         "best_epoch": best_epoch,
         "best_val_mae": best_val_mae,
         "best_val_score": best_val_score,
