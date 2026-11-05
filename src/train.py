@@ -114,8 +114,8 @@ def _configure_log_file(experiment: str) -> None:
     if _LOG_FILE is not None:
         return
     log_dir = Path(__file__).resolve().parent.parent / "logs"
-    log_dir.mkdir(parents=True, exist_ok=True)
     log_path = log_dir / f"train_{experiment}.log"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
     _LOG_FILE = open(log_path, "a", encoding="utf-8")
 
 
